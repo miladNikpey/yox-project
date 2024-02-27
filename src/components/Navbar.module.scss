@@ -1,3 +1,52 @@
 .NavbarHandle{
 direction: rtl;
+    .LogoPic{
+        display: flex;
+        align-items: center;
+        gap: 1.7rem;
+    }
+    .Search{
+        height: 2.7rem;
+        width: 27rem;
+        border-radius: 7px;
+        border: none;
+        background-color: #EDEFF3;
+    }
+    .List ul{
+        display: flex;
+        cursor: pointer;
+        list-style: none;
+        gap: 2rem;
+        font-size: 16px;
+        color: #2D2D2D;
+    }
+    .LoginButton{
+        display: flex;
+        justify-content: center;
+        padding-right: 11rem;
+
+    .ButtonStyle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 7px;
+        background-color: #525CEB;
+        height: 2.7rem;
+        width: 9rem;
+        font-size: 16px;
+        color: #EDEFF3;
+        cursor: pointer;
+    }
+    .ButtonStyle img{
+           width: 28px;
+    }
+}
+    .ShopIcon{
+         display: flex;
+    .ShopIconimg{
+        width: 2rem;
+    }     
+}      
+
 }
