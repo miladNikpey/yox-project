@@ -1,7 +1,9 @@
-*{
-    background-color: red;
+@font-face {
+    font-family:Yekan ;
+    src: url(./assets/Font/YekanBakh.ttf);
 }
-
-p{
-    font-size: 1rem;
+*{
+    padding-left: 8px;
+    font-family: Yekan;
+    padding-right: 8px;
 }

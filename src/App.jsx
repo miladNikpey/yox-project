@@ -1,14 +1,13 @@
 import { useState } from 'react'
-
+import Landing from './page/Landing'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    khiar
-    <div>sdsdsdsd</div>
-    </>
+    <div>
+      <Landing/>
+    </div>
   )
 }
 
