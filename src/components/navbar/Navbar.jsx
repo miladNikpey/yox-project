@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./Navbar.module.scss";
-import Logo from "../assets/images/Logo.png";
-import Login from "../assets/images/Login.png";
-import Shop from "../assets/images/Shop.png";
+import Logo from "../../assets/images/Logo.png";
+import Login from "../../assets/images/Login.png";
+import Shop from "../../assets/images/Shop.png";
 
 const Navbar = () => {
   return (
@@ -22,6 +22,8 @@ const Navbar = () => {
             <li>تماس با ما</li>
           </ul>
         </div>
+      </div>
+      <div className={style.navbarleft}>
         <div className={style.LoginButton}>
           <button className={style.ButtonStyle}>
             <img src={Login} /> ثبت نام/ ورود{" "}
@@ -29,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className={style.ShopIcon}>
           <img className={style.ShopIconimg} src={Shop} />
-        </div>  
+        </div>
       </div>
     </div>
   );
