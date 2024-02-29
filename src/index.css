@@ -3,7 +3,11 @@
     src: url(./assets/Font/YekanBakh.ttf);
 }
 *{
+
     padding-left: 8px;
     font-family: Yekan;
     padding-right: 8px;
+}
+body{
+    direction: rtl;
 }
