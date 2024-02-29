@@ -1,8 +1,8 @@
 import React from "react";
-import style from "./Navbar.module.scss";
 import Logo from "../../assets/images/Logo.png";
 import Login from "../../assets/images/Login.png";
 import Shop from "../../assets/images/Shop.png";
+import style from "./navbar.module.scss";
 
 const Navbar = () => {
   return (
