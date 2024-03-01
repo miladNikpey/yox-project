@@ -1,0 +1,12 @@
+.landingWrapper{
+    padding: 0 1rem;
+    .coverNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .coverNewsImg{
+            width: 100%;
+        }
+    }
+}
