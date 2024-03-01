@@ -1,0 +1,32 @@
+.featureWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2.8rem 0;
+    gap: 2rem;
+    .featureBoxCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        .featureBoxImg{
+            background-color: #EDEFF3;
+            width: 70px;
+            height: 75px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img{
+                width: 52px;
+            }
+        }
+        .featureBoxTitle{
+            font-size: 1rem;
+            font-weight:600 ;
+            color: #525CEB;
+        }
+    }
+}
