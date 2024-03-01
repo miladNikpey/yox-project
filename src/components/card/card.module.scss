@@ -1,0 +1,20 @@
+.cardBox{
+    background-color:"#EDEFF3"  ;
+    width: 300px ;
+    height:340px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cardImgBox{
+        width: 190px;
+        background-color: #fff;
+        border-radius: 10px;
+        img{
+            width: 100%;
+        }
+    }    
+    .cardBoxTitle{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
